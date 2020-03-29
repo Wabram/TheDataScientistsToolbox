@@ -41,3 +41,4 @@ best <- function(state, outcome) {
 best
 best2
 best3
+best4

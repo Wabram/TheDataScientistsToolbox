@@ -50,4 +50,6 @@ d.AS <- data.frame(x = c(-4:3, 12), y = 3*c(rep(0,6), -5, 5, 1))
 cAS <- with(d.AS, t(sapply(1:10,
                            function(it) line(x,y, iter=it)$coefficients)))
 dimnames(cAS) <- list(paste("it =", format(1:10)), c("intercept", "slope"))
+
 cAS
+cas
