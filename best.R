@@ -38,5 +38,4 @@ best <- function(state, outcome) {
     return(result)
   }
 }
-
-dst
+best
